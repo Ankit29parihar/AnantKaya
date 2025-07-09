@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- remix icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+    integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- temp.css -->
+  <link rel="stylesheet" href="css/temp.css">
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <!-- 1. Animated Background Bubbles -->
+  <!-- <div class="ak-bg-bubbles">
+    <span class="ak-bubble ak-bubble-1"></span>
+    <span class="ak-bubble ak-bubble-2"></span>
+    <span class="ak-bubble ak-bubble-3"></span>
+    <span class="ak-bubble ak-bubble-4"></span>
+    <span class="ak-bubble ak-bubble-5"></span>
+    <span class="ak-bubble ak-bubble-6"></span>
+    <span class="ak-bubble ak-bubble-7"></span>
+    <span class="ak-bubble ak-bubble-8"></span>
+    <span class="ak-bubble ak-bubble-9"></span>
+    <span class="ak-bubble ak-bubble-10"></span>
+  </div> -->
+
+  <!-- 2. Main Content Wrapper -->
+  <main class="ak-smooth-scroll">
+    <!-- 3. Navbar (Header) -->
+    <nav class="navbar navbar-expand-lg  shadow-sm py-2 fixed-top" style="background: #fff; z-index: 1050;">
+      <div class="container-fluid px-lg-5 px-3">
+        <div class="row w-100 align-items-center flex-nowrap">
+          <!-- Left: Logo -->
+          <div class="col-auto pe-0">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+              <div class="rounded-3 d-flex align-items-center justify-content-center header-logo-bg">
+                <img src="assets/anant-kaya (1).png" alt="Logo" class="header-logo-img">
+              </div>
+            </a>
+          </div>
+          <!-- Center: Nav links -->
+          <div class="col text-center px-lg-5">
+            <!-- Custom Navbar Toggler for Mobile (Animated) -->
+            <button class="navbar-toggler custom-navbar-toggler ms-auto d-lg-none float-end" type="button"
+              data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-label="Toggle navigation">
+              <span class="toggler-bar bar1"></span>
+              <span class="toggler-bar bar2"></span>
+              <span class="toggler-bar bar3"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto d-flex align-items-center gap-lg-2 gap-2">
+
+                <li class="nav-item">
+                  <a class="nav-link custom-nav-link px-3" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link custom-nav-link px-3" href="#">Business</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link custom-nav-link px-3" href="#">Chairman</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link custom-nav-link px-3" href="#">Foundation</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link custom-nav-link px-3" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Right: CTA -->
+          <!-- <div class="col-auto ps-0 d-none d-lg-block">
+            <a class="btn btn-outline-dark rounded-pill px-4 py-2 fw-semibold custom-header-cta" href="#">Get Free Template</a>
+          </div> -->
+        </div>
+      </div>
+    </nav>
+    <!-- Header end -->
+
+    <!-- 4. Hero Section (Modern Carousel) -->
+    <section class="hero-section-modern mt-5 mb-5 ak-smooth-section">
+      <div class="container-fluid px-0">
+        <div class="row g-0 justify-content-center">
+          <div class="col-12" id="heroCarouselContainer">
+            <div id="heroCarousel" class="carousel slide hero-img-modern-wrap" data-bs-ride="carousel"
+              data-bs-interval="5000" data-bs-pause="false">
+              <div class="carousel-inner rounded-4">
+                <div class="carousel-item active position-relative">
+                  <img src="assets/images/carousel/slider-1.jpg" class="carousel-img-fit hero-img-modern rounded-4"
+                    alt="Modern Architecture 1">
+                  <div class=" hero-card-overlay bg-white shadow-lg p-3 rounded-4 ">
+                    <h1 class="hero-title-modern mb-3"> <span id="robotics">Robotics</span> Automation & Innovation
+                      Advanced robotics solutions</h1>
+                    <p class="hero-desc-modern mb-4">Manufacturing Real estate management Industrial automation</p>
+                    <div class="d-flex flex-wrap gap-3" id="carousel-btn">
+                      <a href="#" class="btn btn-dark btn-mg px-5 py-3 rounded-pill" id="btn-contact">Contact Us</a>
+                      <a href="#" class="btn btn-outline-dark btn-md px-5 py-3 rounded-pill hero-btn">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item position-relative">
+                  <img src="assets/images/carousel/slider2.jpg"
+                    class="carousel-img-fit d-block w-100 hero-img-modern img-fluid rounded-4" alt="Modern Architecture 1">
+                  <div class=" hero-card-overlay bg-white shadow-lg p-3 rounded-4 ">
+                    <h1 class="hero-title-modern mb-3"> <span id="robotics">Smart
+                      </span> Software Solutions</h1>
+                    <p class="hero-desc-modern mb-4">Content: Simplify your business with powerful, custom-built
+                      software.</p>
+                    <div class="d-flex flex-wrap gap-3" id="carousel-btn">
+                      <a href="#" class="btn btn-dark btn-mg px-5 py-3 rounded-pill" id="btn-contact">Contact Us</a>
+                      <a href="#" class="btn btn-outline-dark btn-md px-5 py-3 rounded-pill hero-btn">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item position-relative">
+                  <img src="assets/images/carousel/slider3.jpg"
+                    class="carousel-img-fit d-block w-100 hero-img-modern img-fluid rounded-4" alt="Modern Architecture 1">
+                  <div class=" hero-card-overlay bg-white shadow-lg p-3 rounded-4 ">
+                    <h1 class="hero-title-modern mb-3"> <span id="robotics">Reliable </span> Automation & Data Centers
+                    </h1>
+                    <p class="hero-desc-modern mb-4">Content: Powering your digital operations with 24/7 uptime.</p>
+                    <div class="d-flex flex-wrap gap-3" id="carousel-btn">
+                      <a href="#" class="btn btn-dark btn-mg px-5 py-3 rounded-pill" id="btn-contact">Contact Us</a>
+                      <a href="#" class="btn btn-outline-dark btn-md px-5 py-3 rounded-pill hero-btn">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+
+               
+              </div>
+              <button class="carousel-control-prev hide" type="button" data-bs-target="#heroCarousel"
+                data-bs-slide="prev" style="opacity:0.8;">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next hide" type="button" data-bs-target="#heroCarousel"
+                data-bs-slide="next" style="opacity:0.8;">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      <!-- Mobile Hero Card Section (only visible on mobile) -->
+      <section id="mobileHeroCardSection">
+        <div id="mobileHeroCard" class="mobile-hero-card"></div>
+      </section>
+    </section>
+
+    <!-- Hero Section Modern Carousel End -->
+
+    <!-- JK Group section -->
+    <!-- <section id="group_section" class=" my-5 d-flex justify-content-center align-items-center" style="min-height: 300px;">
+        <div class="row w-100 justify-content-center align-items-center">
+          <div class="col-md-6 text-center mt-3">
+            <i class="bi bi-house"></i>
+            <p class="mt-5">parent company</p>
+            <h1>JK Group</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque repellendus possimus suscipit molestiae libero,</p>
+            
+       <div id="customer_trust">
+            <div id="trust_box">
+             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M13.0049 16.9409V19.0027H18.0049V21.0027H6.00488V19.0027H11.0049V16.9409C7.05857 16.4488 4.00488 13.0824 4.00488 9.00275V3.00275H20.0049V9.00275C20.0049 13.0824 16.9512 16.4488 13.0049 16.9409ZM6.00488 5.00275V9.00275C6.00488 12.3165 8.69117 15.0027 12.0049 15.0027C15.3186 15.0027 18.0049 12.3165 18.0049 9.00275V5.00275H6.00488ZM1.00488 5.00275H3.00488V9.00275H1.00488V5.00275ZM21.0049 5.00275H23.0049V9.00275H21.0049V5.00275Z"></path></svg>
+              <h1 id="trust_heading" class="text-start fs-4">50+ <br> <span id="trust_second_heading" >Year Of Trust</span></h1>
+              <p id="trust_desc" class="text-start">Eshtablished legacy since 1974</p>
+          </div>
+       </div>
+          </div>
+        </div>
+
+      </section> -->
+
+
+
+
+    <!-- JK Group section end-->
+    <!-- JK Group Billionaire Section Start -->
+    <section class="jkgroup-section position-relative py-5 ak-smooth-section">
+      <div class="container position-relative">
+        <div class="text-center mb-5">
+          <span class="badge bg-secondary bg-opacity-50 mb-2 px-3 py-2 rounded-pill"
+            style="font-size:0.95rem;letter-spacing:1px;">Parent Company</span>
+          <h2 class="fw-bold mb-2" style="color:#8e6fff;letter-spacing:2px;">JK <span
+              style="color:#ff7eb3;">Group</span>
+          </h2>
+          <p class="lead text-white-50 mb-0">Five decades of excellence, innovation, and trust. Building the foundation
+            for tomorrow's possibilities.</p>
+        </div>
+        <div class="row g-4 mb-4">
+          <div class="col-6 col-md-3">
+            <div class="jk-card h-100 text-center">
+              <i class="ri-trophy-fill jk-icon" style="color:#ffb347;"></i>
+              <h4 class="fw-bold mb-0">50+</h4>
+              <div class="small">Years of Trust</div>
+              <div class="text-white-50 small">Established legacy since 1974</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="jk-card h-100 text-center">
+              <i class="ri-building-4-fill jk-icon" style="color:#7ed6ff;"></i>
+              <h4 class="fw-bold mb-0">5M+</h4>
+              <div class="small">Sq Ft Portfolio</div>
+              <div class="text-white-50 small">Real estate footprint across India</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="jk-card h-100 text-center">
+              <i class="ri-user-smile-fill jk-icon" style="color:#5effa1;"></i>
+              <h4 class="fw-bold mb-0">25,000+</h4>
+              <div class="small">Customer's Trust</div>
+              <div class="text-white-50 small">Satisfied families and businesses</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="jk-card h-100 text-center">
+              <i class="ri-map-pin-2-fill jk-icon" style="color:#ff7eb3;"></i>
+              <h4 class="fw-bold mb-0">12+</h4>
+              <div class="small">Cities</div>
+              <div class="text-white-50 small">Pan-India presence and operations</div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4 mb-4">
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="jk-card h-100 d-flex flex-column align-items-start">
+              <div class="d-flex align-items-center mb-2"><i class="ri-star-fill me-2 jk-icon-sm "
+                  style="color:#8e6fff;"></i> <span class="fw-bold jk-card-title">Industry Leadership</span></div>
+              <div class="small text-white-50">Five decades of pioneering excellence across diverse business verticals
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="jk-card h-100 d-flex flex-column align-items-start">
+              <div class="d-flex align-items-center mb-2"><i
+                  class="ri-lightbulb-flash-fill me-2 jk-icon-sm jk-card-title" style="color:#ffb347;"></i> <span
+                  class="fw-bold jk-card-title">Innovation Focus</span></div>
+              <div class="small text-white-50 jk-card-desc">Continuous investment in cutting-edge technologies and
+                sustainable
+                solutions</div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="jk-card h-100 d-flex flex-column align-items-start">
+              <div class="d-flex align-items-center mb-2"><i class="ri-community-fill me-2 jk-icon-sm jk-card-title"
+                  style="color:#5effa1;"></i> <span class="fw-bold jk-card-title">Community Impact</span></div>
+              <div class="small text-white-50 jk-card-desc">Deep commitment to social responsibility and community
+                development</div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="jk-card h-100 d-flex flex-column align-items-start">
+              <div class="d-flex align-items-center mb-2 jk-card-title"><i class="ri-eye-2-fill me-2 jk-icon-sm"
+                  style="color:#7ed6ff;"></i> <span class="fw-bold">Future Vision</span></div>
+              <div class="small text-white-50 jk-card-desc">Building tomorrow's infrastructure with today's innovative
+                solutions
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-12">
+            <div class="jk-card text-center py-4 px-3">
+              <h5 class="fw-bold mb-2">Legacy Continues</h5>
+              <p class="mb-3 text-white-50">From humble beginnings to industry leadership, our commitment to excellence
+                remains unwavering.</p>
+              <a href="#" class="btn btn-light px-4 py-2 rounded-pill fw-bold shadow-sm">Discover Our Heritage</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Overlay for background image, you can set your image in CSS -->
+      <div class="jkgroup-bg-overlay position-absolute top-0 start-0 w-100 h-100"></div>
+    </section>
+    <!-- JK Group Billionaire Section End -->
+
+    <!-- Chairman's Message Section Start -->
+    <section class="chairman-section py-5 position-relative">
+      <div class="container position-relative" style="z-index:2;max-width:1029px;">
+        <div class="text-center mb-4">
+          <span class="badge bg-secondary bg-opacity-50 mb-2 px-3 py-2 rounded-pill"
+            style="font-size:0.95rem;letter-spacing:1px;">Leadership Message</span>
+          <h2 class="fw-bold mb-3" style="color:#222;letter-spacing:1.5px;">Chairman's Message</h2>
+        </div>
+        <div class="row align-items-center justify-content-center mb-4 gx-5 gy-4">
+          <div class="col-12 col-md-4 d-flex flex-column align-items-center">
+            <div class="chairman-img-box mb-3 mr-4">
+              <img src="assets/about-img.jpg" alt="Chairman" class="img-fluid rounded-4 shadow-lg chairman-img" />
+            </div>
+            <div class="text-center mt-2">
+              <h5 class="fw-bold mb-0">Ramesh Kumar</h5>
+              <div class="text-muted small">Chairman & Founder</div>
+            </div>
+          </div>
+          <div class="col-12 col-md-8">
+            <div class="glass-quote-box mb-3">
+              <i class="ri-double-quotes-l quote-icon"></i>
+              <span class="fs-5">At AnantKaya, we believe that true success is measured not just by profits, but by the
+                positive impact we create on society and the environment.</span>
+              <div class="text-end mt-2 small text-muted">One humble statement, our humble founder explains the vision.
+              </div>
+            </div>
+            <div class="mb-3 text-dark fs-6" style="line-height:1.7;">
+              Over the past five decades, our journey has been guided by unwavering principles that form the foundation
+              of everything we do. These values have not only shaped our corporate culture but have also enabled us to
+              build lasting relationships with our stakeholders.
+            </div>
+            <div class="mb-3 text-dark fs-6" style="line-height:1.7;">
+              As we look towards the future, we remain committed to innovation, sustainability, and social
+              responsibility. Our diverse portfolio of businesses reflects our dedication to creating comprehensive
+              solutions that address the evolving needs of our communities.
+            </div>
+            <div class="mb-3 text-dark fs-6" style="line-height:1.7;">
+              Through the Akshara Foundation, we continue to give back to society, ensuring that our growth translates
+              into meaningful opportunities for those who need them most.
+            </div>
+            <a href="#" class="btn btn-dark px-4 py-2 rounded-pill fw-bold shadow-sm">RK</a>
+          </div>
+        </div>
+        <div class="row g-4 mb-4 justify-content-center flex-wrap">
+          <div class="col-6 col-md-4 col-lg-4">
+            <div class="chairman-card h-100 text-center">
+              <i class="ri-shield-check-line chairman-icon" style="color:#3b82f6;"></i>
+              <div class="fw-bold">Trust</div>
+              <div class="small text-muted">Nurturing relationships through integrity</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-4">
+            <div class="chairman-card h-100 text-center">
+              <i class="ri-eye-line chairman-icon" style="color:#22c55e;"></i>
+              <div class="fw-bold">Transparency</div>
+              <div class="small text-muted">Openness in every action</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-4">
+            <div class="chairman-card h-100 text-center">
+              <i class="ri-award-line chairman-icon" style="color:#a855f7;"></i>
+              <div class="fw-bold">Legacy</div>
+              <div class="small text-muted">Building for future generations</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-4">
+            <div class="chairman-card h-100 text-center">
+              <i class="ri-lightbulb-flash-line chairman-icon" style="color:#f59e42;"></i>
+              <div class="fw-bold">Innovation</div>
+              <div class="small text-muted">Constantly evolving for excellence</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-4">
+            <div class="chairman-card h-100 text-center">
+              <i class="ri-leaf-line chairman-icon" style="color:#10b981;"></i>
+              <div class="fw-bold">Sustainability</div>
+              <div class="small text-muted">Responsibility for our planet</div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <blockquote class="blockquote fs-5 text-dark mb-0" style="font-style:italic;">
+            “Together, we are not just building a business empire, but <br>crafting a legacy that will inspire
+            generations
+            to
+            come.”
+          </blockquote>
+          <div class="text-muted mt-2 small">Ramesh Kumar</div>
+        </div>
+      </div>
+    </section>
+    <!-- Chairman's Message Section End -->
+
+    <!-- Innovation Spotlight Section Start -->
+    <section class="innovation-section py-5 position-relative  ak-smooth-section">
+      <div class="innovation-bubbles">
+        <span class="bubble bubble-1"></span>
+        <span class="bubble bubble-2"></span>
+        <span class="bubble bubble-3"></span>
+        <span class="bubble bubble-4"></span>
+        <span class="bubble bubble-5"></span>
+        <span class="bubble bubble-6"></span>
+        <span class="bubble bubble-7"></span>
+        <span class="bubble bubble-8"></span>
+      </div>
+      <div class="container position-relative" style="z-index:2;">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold mb-2" style="color:#222;letter-spacing:1.5px;">Innovation Spotlight</h2>
+          <p class="lead text-muted mb-0">Discover the cutting-edge initiatives that drive our commitment to excellence
+            and transformation.</p>
+        </div>
+        <div class="innovation-grid-custom">
+          <!-- Row 1: 1 big left, 2 equal height right -->
+          <div class="row gx-4 gy-4 align-items-stretch">
+            <div class="col-lg-6 col-md-6 col-12 d-flex">
+              <div class="innovation-card innovation-card-lg h-100 position-relative overflow-hidden w-100">
+                <img src="assets/images/Innovation Spotlight/AI.jpg" class="innovation-img" alt="AI Innovation Hub">
+                <div class="innovation-overlay"></div>
+                <div class="innovation-content">
+                  <div class="d-flex align-items-center mb-2">
+                    <i class="ri-brain-line innovation-icon me-2"></i>
+                    <span class="fw-bold">AI Innovation Hub</span>
+                  </div>
+                  <div class="small text-white-50">Driving future with artificial intelligence</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 d-flex flex-column justify-content-between">
+              <div class="row h-100">
+                <div class="col-6 d-flex">
+                  <div class="innovation-card innovation-card-md h-100 position-relative overflow-hidden w-100">
+                    <img src="assets/images/Innovation Spotlight/Sustainable Future.jpg" class="innovation-img"
+                      alt="Sustainable Future">
+                    <div class="innovation-overlay"></div>
+                    <div class="innovation-content">
+                      <div class="d-flex align-items-center mb-2">
+                        <i class="ri-leaf-line innovation-icon me-2"></i>
+                        <span class="fw-bold">Sustainable Future</span>
+                      </div>
+                      <div class="small text-white-50">Green energy and eco-initiatives</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 d-flex">
+                  <div class="innovation-card innovation-card-md h-100 position-relative overflow-hidden w-100">
+                    <img src="assets/images/Innovation Spotlight/global-impact.jpg" class="innovation-img"
+                      alt="Global Impact">
+                    <div class="innovation-overlay"></div>
+                    <div class="innovation-content">
+                      <div class="d-flex align-items-center mb-2">
+                        <i class="ri-global-line innovation-icon me-2"></i>
+                        <span class="fw-bold">Global Impact</span>
+                      </div>
+                      <div class="small text-white-50">Expanding our reach worldwide</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Row 2: 2 equal width left, 1 big right -->
+          <div class="row gx-4 gy-4 align-items-stretch mt-1">
+            <div class="col-lg-6 col-md-6 col-12 d-flex flex-column justify-content-between">
+              <div class="row h-100">
+                <div class="col-6 d-flex">
+                  <div class="innovation-card innovation-card-md h-100 position-relative overflow-hidden w-100">
+                    <img
+                      src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=80"
+                      class="innovation-img" alt="Innovation Lab">
+                    <div class="innovation-overlay"></div>
+                    <div class="innovation-content">
+                      <div class="d-flex align-items-center mb-2">
+                        <i class="ri-flask-line innovation-icon me-2"></i>
+                        <span class="fw-bold">Innovation Lab</span>
+                      </div>
+                      <div class="small text-white-50">Experimenting for tomorrow</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 d-flex">
+                  <div class="innovation-card innovation-card-md h-100 position-relative overflow-hidden w-100">
+                    <img
+                      src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
+                      class="innovation-img" alt="Community Building">
+                    <div class="innovation-overlay"></div>
+                    <div class="innovation-content">
+                      <div class="d-flex align-items-center mb-2">
+                        <i class="ri-team-line innovation-icon me-2"></i>
+                        <span class="fw-bold">Community Building</span>
+                      </div>
+                      <div class="small text-white-50">Empowering people and places</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 d-flex">
+              <div class="innovation-card innovation-card-lg h-100 position-relative overflow-hidden w-100">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80"
+                  class="innovation-img" alt="Smart City Push">
+                <div class="innovation-overlay"></div>
+                <div class="innovation-content">
+                  <div class="d-flex align-items-center mb-2">
+                    <i class="ri-cpu-line innovation-icon me-2"></i>
+                    <span class="fw-bold">Smart City Push</span>
+                  </div>
+                  <div class="small text-white-50">Tech-driven urban solutions</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Foundation Section Start -->
+    <section class="foundation-section py-5 position-relative ak-smooth-section" style="background: #f7faff;">
+      <div class="container position-relative" style="z-index:2;max-width:1100px;">
+        <div class="text-center mb-4">
+          <span class="foundation-badge mb-2 px-3 py-2 rounded-pill"><i class="ri-heart-3-line me-1"></i> Impact &
+            Innovation</span>
+          <h2 class="fw-bold mb-2 foundation-title">Akshara Foundation</h2>
+          <p class="foundation-desc mb-4">Bridging technology and humanity through meaningful social impact and
+            cutting-edge innovation. Part of the AnantKaya commitment to building a better future.</p>
+          <a href="#" class="btn btn-foundation-visit mb-4" tabindex="-1">Visit Foundation Website</a>
+        </div>
+        <div class="foundation-section-block mb-5">
+          <h4 class="fw-bold text-center mb-4 foundation-subtitle">Social Impact</h4>
+          <div class="row g-4 justify-content-center">
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="foundation-card h-100 text-center">
+                <div class="foundation-icon-box"><i class="ri-user-heart-line"></i></div>
+                <div class="foundation-card-title">50,000+<span class="foundation-card-label">Lives Impacted</span>
+                </div>
+                <div class="foundation-card-desc">Children and families benefited</div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="foundation-card h-100 text-center">
+                <div class="foundation-icon-box"><i class="ri-book-open-line"></i></div>
+                <div class="foundation-card-title">200+<span class="foundation-card-label">Schools Supported</span>
+                </div>
+                <div class="foundation-card-desc">Educational institutions enhanced</div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="foundation-card h-100 text-center">
+                <div class="foundation-icon-box"><i class="ri-lightbulb-flash-line"></i></div>
+                <div class="foundation-card-title">15+<span class="foundation-card-label">Programs</span></div>
+                <div class="foundation-card-desc">Active community initiatives</div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="foundation-card h-100 text-center">
+                <div class="foundation-icon-box"><i class="ri-infinity-line"></i></div>
+                <div class="foundation-card-title">Hope Created<span class="foundation-card-label"></span></div>
+                <div class="foundation-card-desc">Immeasurable positive change</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="foundation-section-block mb-2">
+          <h4 class="fw-bold text-center mb-4 foundation-subtitle">Technology Leadership</h4>
+          <div class="row g-4 justify-content-center">
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="foundation-card h-100 text-center">
+                <div class="foundation-icon-box"><i class="ri-database-2-line"></i></div>
+                <div class="foundation-card-title">1,000+<span class="foundation-card-label">Edge Data Centers</span>
+                </div>
+                <div class="foundation-card-desc">Distributed computing infrastructure across major cities</div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="foundation-card h-100 text-center">
+                <div class="foundation-icon-box"><i class="ri-sun-line"></i></div>
+                <div class="foundation-card-title">1+ GW<span class="foundation-card-label">Solar Power Capacity</span>
+                </div>
+                <div class="foundation-card-desc">Gigawatt-scale renewable energy generation</div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="foundation-card h-100 text-center">
+                <div class="foundation-icon-box"><i class="ri-satellite-line"></i></div>
+                <div class="foundation-card-title">Coming Soon<span class="foundation-card-label">Anant Satellite
+                    Internet</span></div>
+                <div class="foundation-card-desc">Next-generation satellite connectivity solutions</div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+              <div class="foundation-card h-100 text-center">
+                <div class="foundation-icon-box"><i class="ri-cloud-line"></i></div>
+                <div class="foundation-card-title">99.9%<span class="foundation-card-label">Cloud Services</span></div>
+                <div class="foundation-card-desc">Enterprise-grade cloud infrastructure uptime</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="foundation-bg-blur"></div>
+    </section>
+    <!-- Modern News & Programs Section Start -->
+    <section class="modern-news-section py-5 position-relative ak-smooth-section">
+      <div class="container position-relative" style="z-index:2;max-width:1200px;">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="modern-news-title mb-2"><span class="modern-news-title-accent">Our Programs </span></h2>
+          </div>
+        </div>
+        <div class="row g-4 mb-4 modern-news-cards-row">
+          <!-- Card 1 -->
+          <div class="col-12 col-md-6 col-lg-4 d-flex">
+            <div class="modern-news-card flex-fill">
+              <div class="modern-news-img-wrap">
+                <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80"
+                  alt="Digital Literacy" class="modern-news-img img-fluid">
+              </div>
+              <div class="modern-news-card-body">
+                <div class="modern-news-meta mb-1">Digital Literacy</div>
+                <h5 class="modern-news-card-title">Empowering communities through technology education and digital
+                  skills development.</h5>
+                <a href="#" class="modern-news-link">Learn More <i class="ri-arrow-right-line"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-12 col-md-6 col-lg-4 d-flex">
+            <div class="modern-news-card flex-fill">
+              <div class="modern-news-img-wrap">
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80"
+                  alt="Healthcare Access" class="modern-news-img img-fluid">
+              </div>
+              <div class="modern-news-card-body">
+                <div class="modern-news-meta mb-1">Healthcare Access</div>
+                <h5 class="modern-news-card-title">Providing essential medical services and health awareness in
+                  underserved areas.</h5>
+                <a href="#" class="modern-news-link">Learn More <i class="ri-arrow-right-line"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-12 col-md-6 col-lg-4 d-flex">
+            <div class="modern-news-card flex-fill">
+              <div class="modern-news-img-wrap">
+                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80"
+                  alt="Skill Development" class="modern-news-img img-fluid">
+              </div>
+              <div class="modern-news-card-body">
+                <div class="modern-news-meta mb-1">Skill Development</div>
+                <h5 class="modern-news-card-title">Building vocational skills and creating employment opportunities for
+                  youth.</h5>
+                <a href="#" class="modern-news-link">Learn More <i class="ri-arrow-right-line"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-12 col-lg-10">
+            <div class="modern-news-mission-card text-center p-4 p-md-5 mx-auto">
+              <h4 class="modern-news-mission-title mb-3">Join Our Mission</h4>
+              <p class="modern-news-mission-desc mb-4">Together, we can create lasting impact and build a better future
+                through the power of technology and compassion.</p>
+              <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
+                <a href="#" class="btn btn-modern-news-cta">Partner With Us</a>
+                <a href="#" class="btn btn-modern-news-outline">Download Impact Report</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modern-news-bg-blur"></div>
+    </section>
+    <!-- Modern News & Programs Section End -->
+
+    <!-- Footer Start -->
+    <footer class="footer-section bg-dark text-light pt-5 pb-3 mt-5">
+      <div class="container">
+        <div class="row py-4 g-4">
+          <div class="col-12 col-md-4 mb-4 mb-md-0 text-md-start text-center">
+            <div class="d-flex align-items-center justify-content-md-start justify-content-center mb-2">
+              <img src="assets/anant-kaya (1).png" alt="AnantKaya Logo" class="footer-logo-img me-2"
+                style="width:38px;height:38px;object-fit:contain;">
+              <span class="footer-brand mb-0">AnantKaya</span>
+            </div>
+            <div class="footer-desc mb-2">Building tomorrow's world through diversified excellence, innovative
+              solutions, and sustainable practices that create lasting value for all stakeholders.</div>
+            <div class="footer-contact-list small mt-3">
+              <span class="d-block mb-1"><i class="ri-map-pin-line me-2"></i> Mumbai, India</span>
+              <span class="d-block mb-1"><i class="ri-phone-line me-2"></i> +91 (0) 22 1234 5678</span>
+              <span class="d-block"><i class="ri-mail-line me-2"></i> contact@anantkaya.com</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-2 mb-4 mb-md-0">
+            <div class="footer-title mb-2">Company</div>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#" class="footer-link">About Us</a></li>
+              <li><a href="#" class="footer-link">Press & Media</a></li>
+              <li><a href="#" class="footer-link">Sustainability</a></li>
+              <li><a href="#" class="footer-link">Terms & Conditions</a></li>
+              <li><a href="#" class="footer-link">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-4 mb-md-0">
+            <div class="footer-title mb-2">Businesses</div>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#" class="footer-link">Renewable Energy</a></li>
+              <li><a href="#" class="footer-link">FMCG Division</a></li>
+              <li><a href="#" class="footer-link">Data Centers</a></li>
+              <li><a href="#" class="footer-link">Software & AI</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-4 mb-md-0">
+            <div class="footer-title mb-2">Support</div>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#" class="footer-link">Customer Support</a></li>
+              <li><a href="#" class="footer-link">Investor Relations</a></li>
+              <li><a href="#" class="footer-link">Careers</a></li>
+              <li><a href="#" class="footer-link">Partner Portal</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 text-md-end text-center">
+            <div class="footer-meta-links small mt-2">
+              <a href="#" class="footer-meta-link">Investor Portal</a> ·
+              <a href="#" class="footer-meta-link">App Downloads</a> ·
+              <a href="#" class="footer-meta-link">ESG Reports</a>
+            </div>
+          </div>
+        </div>
+        <hr class="footer-divider my-3" />
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 text-center text-md-start mb-2 mb-md-0">
+            <small class="footer-copyright">© AnantKaya 2025 — All Rights Reserved</small>
+          </div>
+          <div class="col-12 col-md-6 text-center text-md-end">
+            <div class="footer-social mb-3 justify-content-md-end justify-content-center d-flex gap-2">
+              <a href="#" class="footer-social-link" aria-label="Facebook"><i class="ri-facebook-fill"></i></a>
+              <a href="#" class="footer-social-link" aria-label="Twitter"><i class="ri-twitter-x-line"></i></a>
+              <a href="#" class="footer-social-link" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+              <a href="#" class="footer-social-link" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+            </div>
+            <!-- <span class="footer-powered small">Made with <span style="color:#8e6fff;">&#10084;</span> by EZONE Web
+              Development</span> -->
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <!-- Footer End -->
+
+  <!-- ...existing code... -->
+  <!-- Google Fonts: Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="app.js"></script>
+  <!-- Custom Navbar Toggler Animation Script -->
+  <script>
+    // Custom Navbar Toggler Animation (for mobile)
+    // Adds/removes 'open' class for animation on click
+    document.addEventListener('DOMContentLoaded', function () {
+      var toggler = document.querySelector('.custom-navbar-toggler');
+      var navCollapse = document.getElementById('navbarNavDropdown');
+      if (toggler && navCollapse) {
+        toggler.addEventListener('click', function () {
+          toggler.classList.toggle('open');
+        });
+        // Remove 'open' class when menu closes (Bootstrap event)
+        navCollapse.addEventListener('hidden.bs.collapse', function () {
+          toggler.classList.remove('open');
+        });
+        navCollapse.addEventListener('shown.bs.collapse', function () {
+          toggler.classList.add('open');
+        });
+      }
+    });
+  </script>
+</body>
+
+</html>
