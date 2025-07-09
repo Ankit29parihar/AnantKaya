@@ -51,6 +51,7 @@
 /* Improved Responsive Carousel Image Height/Width for Better UI */
 .carousel-img-fit {
   object-fit: cover;
+  object-position: right center;
   width: 100%;
   height: 56vw;
   min-height: 320px;
@@ -86,9 +87,17 @@
   .carousel-img-fit {
     height: 82vw;
     min-height: 120px;
-    max-height: 200px;
+    max-height: 218px;
     border-radius: 0.8rem;
   }
+  .hero-img-modern-wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 10px 0 10px;
+}
 }
 /* Mobile Hero Card Section (below carousel) */
 #mobileHeroCard {
