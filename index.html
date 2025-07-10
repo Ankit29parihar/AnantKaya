@@ -14,31 +14,25 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
     integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- fontawsome link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Animate.css -->
   <link rel="stylesheet" href="css/animate.css">
-  <!-- temp.css -->
-  <link rel="stylesheet" href="css/temp.css">
+  <!-- style2.css -->
+  <link rel="stylesheet" href="css/style2.css">
 
-  <title>Hello, world!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/locomotive-scroll/4.1.4/locomotive-scroll.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/locomotive-scroll/4.1.4/locomotive-scroll.min.js"></script>
+
+  <title>AnantKaya</title>
 </head>
 
-<body>
-  <!-- 1. Animated Background Bubbles -->
-  <!-- <div class="ak-bg-bubbles">
-    <span class="ak-bubble ak-bubble-1"></span>
-    <span class="ak-bubble ak-bubble-2"></span>
-    <span class="ak-bubble ak-bubble-3"></span>
-    <span class="ak-bubble ak-bubble-4"></span>
-    <span class="ak-bubble ak-bubble-5"></span>
-    <span class="ak-bubble ak-bubble-6"></span>
-    <span class="ak-bubble ak-bubble-7"></span>
-    <span class="ak-bubble ak-bubble-8"></span>
-    <span class="ak-bubble ak-bubble-9"></span>
-    <span class="ak-bubble ak-bubble-10"></span>
-  </div> -->
+<body data-scroll-container>
 
   <!-- 2. Main Content Wrapper -->
-  <main class="ak-smooth-scroll">
+  <main class="ak-smooth-scroll" data-scroll-section>
     <!-- 3. Navbar (Header) -->
     <nav class="navbar navbar-expand-lg  shadow-sm py-2 fixed-top" style="background: #fff; z-index: 1050;">
       <div class="container-fluid px-lg-5 px-3">
@@ -99,7 +93,7 @@
               data-bs-interval="5000" data-bs-pause="false">
               <div class="carousel-inner rounded-4">
                 <div class="carousel-item active position-relative">
-                  <img src="assets/images/carousel/slider-1.jpg" class="carousel-img-fit hero-img-modern rounded-4"
+                  <img src="assets/images/carousel/slider-1.jpg" class="carousel-img-fit rounded-4"
                     alt="Modern Architecture 1">
                   <div class=" hero-card-overlay bg-white shadow-lg p-3 rounded-4 ">
                     <h1 class="hero-title-modern mb-3"> <span id="robotics">Robotics</span> Automation & Innovation
@@ -111,35 +105,7 @@
                     </div>
                   </div>
                 </div>
-                <!-- <div class="carousel-item position-relative">
-                  <img src="assets/images/carousel/slider2.jpg"
-                    class="carousel-img-fit d-block w-100 hero-img-modern img-fluid rounded-4" alt="Modern Architecture 1">
-                  <div class=" hero-card-overlay bg-white shadow-lg p-3 rounded-4 ">
-                    <h1 class="hero-title-modern mb-3"> <span id="robotics">Smart
-                      </span> Software Solutions</h1>
-                    <p class="hero-desc-modern mb-4">Content: Simplify your business with powerful, custom-built
-                      software.</p>
-                    <div class="d-flex flex-wrap gap-3" id="carousel-btn">
-                      <a href="#" class="btn btn-dark btn-mg px-5 py-3 rounded-pill" id="btn-contact">Contact Us</a>
-                      <a href="#" class="btn btn-outline-dark btn-md px-5 py-3 rounded-pill hero-btn">Learn More</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item position-relative">
-                  <img src="assets/images/carousel/slider3.jpg"
-                    class="carousel-img-fit d-block w-100 hero-img-modern img-fluid rounded-4" alt="Modern Architecture 1">
-                  <div class=" hero-card-overlay bg-white shadow-lg p-3 rounded-4 ">
-                    <h1 class="hero-title-modern mb-3"> <span id="robotics">Reliable </span> Automation & Data Centers
-                    </h1>
-                    <p class="hero-desc-modern mb-4">Content: Powering your digital operations with 24/7 uptime.</p>
-                    <div class="d-flex flex-wrap gap-3" id="carousel-btn">
-                      <a href="#" class="btn btn-dark btn-mg px-5 py-3 rounded-pill" id="btn-contact">Contact Us</a>
-                      <a href="#" class="btn btn-outline-dark btn-md px-5 py-3 rounded-pill hero-btn">Learn More</a>
-                    </div>
-                  </div>
-                </div> -->
-
-               
+           
               </div>
               <button class="carousel-control-prev hide" type="button" data-bs-target="#heroCarousel"
                 data-bs-slide="prev" style="opacity:0.8;">
@@ -163,33 +129,9 @@
 
     <!-- Hero Section Modern Carousel End -->
 
-    <!-- JK Group section -->
-    <!-- <section id="group_section" class=" my-5 d-flex justify-content-center align-items-center" style="min-height: 300px;">
-        <div class="row w-100 justify-content-center align-items-center">
-          <div class="col-md-6 text-center mt-3">
-            <i class="bi bi-house"></i>
-            <p class="mt-5">parent company</p>
-            <h1>JK Group</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque repellendus possimus suscipit molestiae libero,</p>
-            
-       <div id="customer_trust">
-            <div id="trust_box">
-             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M13.0049 16.9409V19.0027H18.0049V21.0027H6.00488V19.0027H11.0049V16.9409C7.05857 16.4488 4.00488 13.0824 4.00488 9.00275V3.00275H20.0049V9.00275C20.0049 13.0824 16.9512 16.4488 13.0049 16.9409ZM6.00488 5.00275V9.00275C6.00488 12.3165 8.69117 15.0027 12.0049 15.0027C15.3186 15.0027 18.0049 12.3165 18.0049 9.00275V5.00275H6.00488ZM1.00488 5.00275H3.00488V9.00275H1.00488V5.00275ZM21.0049 5.00275H23.0049V9.00275H21.0049V5.00275Z"></path></svg>
-              <h1 id="trust_heading" class="text-start fs-4">50+ <br> <span id="trust_second_heading" >Year Of Trust</span></h1>
-              <p id="trust_desc" class="text-start">Eshtablished legacy since 1974</p>
-          </div>
-       </div>
-          </div>
-        </div>
-
-      </section> -->
-
-
-
-
-    <!-- JK Group section end-->
-    <!-- JK Group Billionaire Section Start -->
-    <section class="jkgroup-section position-relative py-5 ak-smooth-section">
+  
+    <!-- JK Group Section Start -->
+   <section class="jkgroup-section position-relative py-5 ak-smooth-section">
       <div class="container position-relative">
         <div class="text-center mb-5">
           <span class="badge bg-secondary bg-opacity-50 mb-2 px-3 py-2 rounded-pill"
@@ -263,19 +205,20 @@
           </div>
           <div class="col-12 col-md-6 col-lg-6">
             <div class="jk-card h-100 d-flex flex-column align-items-start">
-              <div class="d-flex align-items-center mb-2 jk-card-title"><i class="ri-eye-2-fill me-2 jk-icon-sm"
-                  style="color:#7ed6ff;"></i> <span class="fw-bold">Future Vision</span></div>
+              <div class="d-flex align-items-center mb-2"><i class="ri-eye-2-fill me-2 jk-icon-sm"
+                  style="color:#7ed6ff;"></i> <span class="fw-bold jk-card-title">Future Vision</span></div>
               <div class="small text-white-50 jk-card-desc">Building tomorrow's infrastructure with today's innovative
-                solutions
-              </div>
+                solutions</div>
             </div>
           </div>
+
         </div>
         <div class="row justify-content-center">
           <div class="col-12 col-lg-12">
             <div class="jk-card text-center py-4 px-3">
               <h5 class="fw-bold mb-2">Legacy Continues</h5>
-              <p class="mb-3 text-white-50">From humble beginnings to industry leadership, our commitment to excellence
+              <p class="mb-3 text-white-50 jk-card-title">From humble beginnings to industry leadership, our commitment
+                to excellence
                 remains unwavering.</p>
               <a href="#" class="btn btn-light px-4 py-2 rounded-pill fw-bold shadow-sm">Discover Our Heritage</a>
             </div>
@@ -285,7 +228,7 @@
       <!-- Overlay for background image, you can set your image in CSS -->
       <div class="jkgroup-bg-overlay position-absolute top-0 start-0 w-100 h-100"></div>
     </section>
-    <!-- JK Group Billionaire Section End -->
+    <!-- JK Group Section End -->
 
     <!-- Chairman's Message Section Start -->
     <section class="chairman-section py-5 position-relative">
@@ -327,7 +270,7 @@
               Through the Akshara Foundation, we continue to give back to society, ensuring that our growth translates
               into meaningful opportunities for those who need them most.
             </div>
-            <a href="#" class="btn btn-dark px-4 py-2 rounded-pill fw-bold shadow-sm">RK</a>
+            <a href="#" class="btn btn-dark px-4 py-2 rounded-pill fw-bold shadow-sm">REad More</a>
           </div>
         </div>
         <div class="row g-4 mb-4 justify-content-center flex-wrap">
@@ -570,7 +513,7 @@
             </div>
             <div class="col-12 col-sm-6 col-lg-3">
               <div class="foundation-card h-100 text-center">
-                <div class="foundation-icon-box"><i class="ri-satellite-line"></i></div>
+                <div class="foundation-icon-box"><i class="fa-solid fa-satellite"></i></div>
                 <div class="foundation-card-title">Coming Soon<span class="foundation-card-label">Anant Satellite
                     Internet</span></div>
                 <div class="foundation-card-desc">Next-generation satellite connectivity solutions</div>
@@ -579,8 +522,8 @@
             <div class="col-12 col-sm-6 col-lg-3">
               <div class="foundation-card h-100 text-center">
                 <div class="foundation-icon-box"><i class="ri-cloud-line"></i></div>
-                <div class="foundation-card-title">99.9%<span class="foundation-card-label">Cloud Services</span></div>
-                <div class="foundation-card-desc">Enterprise-grade cloud infrastructure uptime</div>
+                <div class="foundation-card-title">99%<span class="foundation-card-label">Cloud Services</span></div>
+                <div class="foundation-card-desc">Next-generation satellite connectivity solutions</div>
               </div>
             </div>
           </div>
@@ -662,13 +605,11 @@
     <!-- Modern News & Programs Section End -->
 
     <!-- Footer Start -->
-    <footer class="footer-section bg-dark text-light pt-5 pb-3 mt-5">
+   <footer class="footer-section text-light pt-5 pb-3 mt-5">
       <div class="container">
         <div class="row py-4 g-4">
-          <div class="col-12 col-md-4 mb-4 mb-md-0 text-md-start text-center">
-            <div class="d-flex align-items-center justify-content-md-start justify-content-center mb-2">
-              <img src="assets/anant-kaya (1).png" alt="AnantKaya Logo" class="footer-logo-img me-2"
-                style="width:38px;height:38px;object-fit:contain;">
+          <div class="col-12 col-md-4 mb-4 mb-md-0 text-md-start text-cstart">
+            <div class="d-flex align-items-start justify-start-md-start justify-content-start mb-2">
               <span class="footer-brand mb-0">AnantKaya</span>
             </div>
             <div class="footer-desc mb-2">Building tomorrow's world through diversified excellence, innovative
@@ -679,43 +620,42 @@
               <span class="d-block"><i class="ri-mail-line me-2"></i> contact@anantkaya.com</span>
             </div>
           </div>
-          <div class="col-6 col-md-2 mb-4 mb-md-0">
-            <div class="footer-title mb-2">Company</div>
-            <ul class="list-unstyled footer-links">
-              <li><a href="#" class="footer-link">About Us</a></li>
-              <li><a href="#" class="footer-link">Press & Media</a></li>
-              <li><a href="#" class="footer-link">Sustainability</a></li>
-              <li><a href="#" class="footer-link">Terms & Conditions</a></li>
-              <li><a href="#" class="footer-link">Privacy Policy</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md-2 mb-4 mb-md-0">
-            <div class="footer-title mb-2">Businesses</div>
-            <ul class="list-unstyled footer-links">
-              <li><a href="#" class="footer-link">Renewable Energy</a></li>
-              <li><a href="#" class="footer-link">FMCG Division</a></li>
-              <li><a href="#" class="footer-link">Data Centers</a></li>
-              <li><a href="#" class="footer-link">Software & AI</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md-2 mb-4 mb-md-0">
-            <div class="footer-title mb-2">Support</div>
-            <ul class="list-unstyled footer-links">
-              <li><a href="#" class="footer-link">Customer Support</a></li>
-              <li><a href="#" class="footer-link">Investor Relations</a></li>
-              <li><a href="#" class="footer-link">Careers</a></li>
-              <li><a href="#" class="footer-link">Partner Portal</a></li>
-            </ul>
-          </div>
-          <div class="col-12 col-md-4 text-md-end text-center">
-            <div class="footer-meta-links small mt-2">
-              <a href="#" class="footer-meta-link">Investor Portal</a> ·
-              <a href="#" class="footer-meta-link">App Downloads</a> ·
-              <a href="#" class="footer-meta-link">ESG Reports</a>
-            </div>
-          </div>
+
+              <!-- Column 2 -->
+              <div class="col-12 col-md-3 text-start">
+                <div class="footer-title mb-2">Company</div>
+                <ul class="list-unstyled footer-links">
+                  <li><a href="#" class="footer-link">About Us</a></li>
+                  <li><a href="#" class="footer-link">Press &amp; Media</a></li>
+                  <li><a href="#" class="footer-link">Sustainability</a></li>
+                  <li><a href="#" class="footer-link">Terms &amp; Conditions</a></li>
+                  <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                </ul>
+              </div>
+
+              <!-- Column 3 -->
+              <div class="col-12 col-md-2 text-start">
+                <div class="footer-title mb-2">Businesses</div>
+                <ul class="list-unstyled footer-links">
+                  <li><a href="#" class="footer-link">Renewable Energy</a></li>
+                  <li><a href="#" class="footer-link">FMCG Division</a></li>
+                  <li><a href="#" class="footer-link">Data Centers</a></li>
+                  <li><a href="#" class="footer-link">Software &amp; AI</a></li>
+                </ul>
+              </div>
+          
+              <!-- Column 4 -->
+              <div class="col-12 col-md-2 text-start">
+                <div class="footer-title mb-2">Support</div>
+                <ul class="list-unstyled footer-links">
+                  <li><a href="#" class="footer-link">Customer Support</a></li>
+                  <li><a href="#" class="footer-link">Investor Relations</a></li>
+                  <li><a href="#" class="footer-link">Careers</a></li>
+                  <li><a href="#" class="footer-link">Partner Portal</a></li>
+                </ul>
+              </div>
         </div>
-        <hr class="footer-divider my-3" />
+        <hr class="footer-divider my-3">
         <div class="row align-items-center">
           <div class="col-12 col-md-6 text-center text-md-start mb-2 mb-md-0">
             <small class="footer-copyright">© AnantKaya 2025 — All Rights Reserved</small>
@@ -730,42 +670,114 @@
             <!-- <span class="footer-powered small">Made with <span style="color:#8e6fff;">&#10084;</span> by EZONE Web
               Development</span> -->
           </div>
+          <div class="footer-meta-links small text-center text-md-center">
+                  <a href="#" class="footer-meta-link">Investor Portal</a> ·
+                  <a href="#" class="footer-meta-link">App Downloads</a> ·
+                  <a href="#" class="footer-meta-link">ESG Reports</a>
+                </div>
         </div>
       </div>
     </footer>
   </main>
   <!-- Footer End -->
 
-  <!-- ...existing code... -->
+
+  <!-- Back to Top Button -->
+  <button id="backToTopBtn" aria-label="Back to Top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+         stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- LocomotiveScroll & GSAP Smooth Scroll Setup -->
+  <script>
+  // LocomotiveScroll perfect smooth scroll setup
+  document.addEventListener('DOMContentLoaded', function () {
+    // LocomotiveScroll initialization
+    const scrollContainer = document.querySelector('[data-scroll-container]');
+    if (window.LocomotiveScroll && scrollContainer) {
+      window.scroll = new LocomotiveScroll({
+        el: scrollContainer,
+        smooth: true,
+        smoothMobile: true,
+        multiplier: 1.1,
+        lerp: 0.09
+      });
+      // Sync LocomotiveScroll with GSAP ScrollTrigger if present
+      if (window.ScrollTrigger && window.gsap) {
+        window.ScrollTrigger.scrollerProxy(scrollContainer, {
+          scrollTop(value) {
+            return arguments.length ? window.scroll.scrollTo(value, 0, 0) : window.scroll.scroll.instance.scroll.y;
+          },
+          getBoundingClientRect() {
+            return {top: 0, left: 0, width: window.innerWidth, height: window.innerHeight};
+          },
+        });
+        window.scroll.on('scroll', window.ScrollTrigger.update);
+        window.ScrollTrigger.addEventListener('refresh', () => window.scroll.update());
+        window.ScrollTrigger.refresh();
+      }
+    }
+    // Back to Top Button Smooth Scroll (single, override-safe)
+    var backToTopBtn = document.getElementById('backToTopBtn');
+    if (backToTopBtn) {
+      backToTopBtn.onclick = null;
+      backToTopBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        if (window.scroll && typeof window.scroll.scrollTo === 'function') {
+          window.scroll.scrollTo(0, {duration: 900, disableLerp: true});
+        } else if (window.gsap && window.gsap.to && window.ScrollToPlugin) {
+          gsap.to(window, {scrollTo: {y: 0, autoKill: true}, duration: 0.9, ease: 'power4.out'});
+        } else {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      });
+    }
+  });
+  </script>
+
+
   <!-- Google Fonts: Montserrat -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script src="app.js"></script>
-  <!-- Custom Navbar Toggler Animation Script -->
-  <script>
-    // Custom Navbar Toggler Animation (for mobile)
-    // Adds/removes 'open' class for animation on click
-    document.addEventListener('DOMContentLoaded', function () {
-      var toggler = document.querySelector('.custom-navbar-toggler');
-      var navCollapse = document.getElementById('navbarNavDropdown');
-      if (toggler && navCollapse) {
-        toggler.addEventListener('click', function () {
-          toggler.classList.toggle('open');
-        });
-        // Remove 'open' class when menu closes (Bootstrap event)
-        navCollapse.addEventListener('hidden.bs.collapse', function () {
-          toggler.classList.remove('open');
-        });
-        navCollapse.addEventListener('shown.bs.collapse', function () {
-          toggler.classList.add('open');
-        });
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"></script>
+<script src="app.js"></script>
+<!-- LocomotiveScroll Smooth Scroll Setup (single instance, no duplicate GSAP/ScrollTo) -->
+<script>
+// LocomotiveScroll: Full-page smooth scroll
+let locoScrollInstance = null;
+document.addEventListener('DOMContentLoaded', function () {
+  // Only initialize once
+  if (window.LocomotiveScroll && !window.locoScrollInstance) {
+    locoScrollInstance = new LocomotiveScroll({
+      el: document.querySelector('[data-scroll-container]'),
+      smooth: true,
+      smoothMobile: true,
+      multiplier: 1.1,
+      lerp: 0.07
+    });
+    window.locoScrollInstance = locoScrollInstance;
+  }
+
+  // Back to Top Button Smooth Scroll (works with Locomotive, fallback to native)
+  var backToTopBtn = document.getElementById('backToTopBtn');
+  if (backToTopBtn) {
+    backToTopBtn.onclick = null;
+    backToTopBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      if (window.locoScrollInstance) {
+        window.locoScrollInstance.scrollTo(0, {duration: 900, disableLerp: true});
+      } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       }
     });
-  </script>
+  }
+});
+</script>
 </body>
 
 </html>
